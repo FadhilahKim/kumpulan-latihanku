@@ -1,0 +1,213 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "Karma", sans-serif;
+  margin: 0;
+  background-color: white;
+}
+.navbar {
+  overflow: hidden;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+
+
+.header {
+  padding: 80px;
+  height: 500px;
+  background-image: url(img/6.jpg);
+  background-size: cover;
+  color: white;
+}
+.header img {
+  position: relative;
+  width:80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+
+.header h1 {
+  font-size: 40px;
+}
+.logo {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+
+.row {  
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+}
+
+
+.side {
+  float: right;
+  width: 270px;
+  -ms-flex: 20%; 
+  flex: 20%;
+  background-color: #bcaaa4;
+  padding: 20px;
+}
+
+
+.artikel {
+  -ms-flex: 70%;
+  flex: 70%;
+  overflow: hidden;
+}
+.main h3 p {
+  font-size: 15px;
+}
+
+
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: black;
+  color: white;
+}
+
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.main {   
+  -ms-flex: 80%; 
+  flex: 80%;
+  padding: 20px;
+  background-color:  #ffffff;
+  margin-bottom: 20px;
+  overflow: hidden;
+  text-align: justify;
+  font-size: 18px;
+ 
+}
+.main img {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin-right: 10px;
+}
+.main h3 p {
+  margin-right: 10px;
+}
+
+
+}
+.main p {
+  display: block;
+  text-align: justify;
+  color: #636363;
+}
+
+.padding {
+  padding-top: 50px;
+}
+.href  {
+  text-decoration: none;
+  color: inherit;
+  background-color: transparent;
+}
+.link  {
+  
+  background-color: dodgerblue;
+  text-decoration: none;
+      color: white;
+      padding: 15px 20px;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      opacity: 0.9;
+}
+.href a  {
+  text-decoration: none;
+  color: inherit;
+  background-color: transparent;
+}
+.search {
+  width: auto;
+  height: auto;
+  padding: 10px 18px;
+  color: white;
+  background-color: dodgerblue;
+}
+@media screen and (max-width: 300px) {
+ .search {
+     width: 100%;
+  }
+}

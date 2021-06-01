@@ -1,0 +1,95 @@
+body {
+    font: 16px/28px arial, sans-serif; 
+    background-color: #eaeaea;
+    background-image: url(img/cap.png);
+    background-size: 10%;
+    top: 0;
+    bottom: 0;
+}
+
+.top-bar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: gray;
+    border-bottom: 3px solid black;
+    z-index: 1;
+    opacity: .9;
+}
+
+.top-bar img{
+    width: 50px;
+    animation: animasi1 1.5s ease;
+}
+.top-bar a:hover{
+    animation: animasi1 .9s ease forwards;
+}
+
+.jarak{
+    width: 400px;
+}
+.contact{
+    padding-top: 199px;
+    height: 1000px;
+}
+.garis{
+    border-top:3px solid black;
+}
+.footer{
+    background-color: gray;
+    height: 60px;
+    text-align: center;
+    color: black;
+    padding-top: 20px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer a:hover{
+    text-decoration: none;
+}
+@keyframes animasi {
+    0%{
+        opacity: 0;
+        transform: scale(.9);
+    }
+    100%{
+        opacity: .5;
+    }
+}
+
+@keyframes animasi1 {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: .7;
+    }
+}
+
+@keyframes animasi2{
+    0%{
+        color: yellow;
+        letter-spacing: 19px;
+    }
+    50%{
+      background-color: red;
+      color: yellowgreen;
+    }
+    100%{
+      word-spacing: 16px;
+    }
+  }
+  @keyframes animasi3{
+    0%{
+        margin-top: 100%;
+    }
+
+    100%{
+        margin-top: 0;
+    }
+  }
+  

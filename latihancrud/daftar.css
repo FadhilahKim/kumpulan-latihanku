@@ -1,0 +1,30 @@
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+th {
+    color: white;
+    text-align: center;
+    padding: 16px;
+}
+
+td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2
+}
+.edit {
+text-decoration: none;
+  color: dodgerblue;
+  background-color: transparent;
+}
+.hapus {
+  text-decoration: none;
+  color: #e53935;
+  background-color: transparent;  
+}
